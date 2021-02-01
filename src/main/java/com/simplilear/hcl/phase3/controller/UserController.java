@@ -54,7 +54,7 @@ public class UserController {
 	}
 
 	@PostMapping(path = "/update")
-	String update(@ModelAttribute("employee") UserEntity user, ModelMap model) {
+	String update(@ModelAttribute("user") UserEntity user, ModelMap model) {
 		logger.info("in /update");
 		System.out.println("here update" + user.toString());
 		userService.update(user);
