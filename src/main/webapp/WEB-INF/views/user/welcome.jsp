@@ -36,6 +36,10 @@
 			</table>
 			<input type="submit" value="Update" />
 		</form>
+		<br>
+		<form action="${pageContext.request.contextPath }/user/" method="get">
+		<input type="submit" value="Back to Search" />
+		</form>
 	</div>
 </body>
 </html>
